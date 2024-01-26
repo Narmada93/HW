@@ -13,7 +13,7 @@ public class Lab101 {
         System.out.println("length of array " + arr1.length);
 
         // using for loop
-        for (int i=0; i < arr1.length; i++) {
+        for (int i=0; i < arr1.length; i++) {  //i <= arr1.length - 1
 
             System.out.println(arr1[i]);
         }

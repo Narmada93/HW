@@ -21,9 +21,11 @@ public class Lab105 {
         marks[4] = sc.nextFloat();
 
         for(int i=0; i<marks.length; i++){
-            System.out.println(mark[i]);
+            if(marks[i] < 30){
+                System.out.println("You are failed" + marks[i]);
+            }
+            System.out.println(marks[i]);
         }
-
-
+     sc.close();
     }
 }

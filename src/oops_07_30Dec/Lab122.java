@@ -1,14 +1,14 @@
-package src.OOPs_07_30Dec;
+package src.oops_07_30Dec;
 
 import java.util.Scanner;
 
-public class Lab121 {
+public class Lab122 {
 
     public static void main(String[] args) {
 
         // Swaping
 
-       // int a = 10;
+        // int a = 10;
         // int b = 23;
         // b = 10 , a = 23
 
@@ -18,9 +18,9 @@ public class Lab121 {
         System.out.println(" Enter the value of b = ");
         int b = sc.nextInt();
 
-        int temp = a;
-        a = b;
-        b = temp;
+        a = a+b;
+        b= a-b;
+        a = a-b;
 
         System.out.println(" Value of a is "+a);
         System.out.println(" Value of b is "+b);
